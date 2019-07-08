@@ -1,0 +1,68 @@
+body{
+    width: 80%;
+    margin: auto !important;
+}
+select{
+    padding: 5px;
+}
+div.container {
+    position: relative;
+    width : 100%;
+}
+ul{
+    list-style-type: none;
+
+}
+ul li{
+text-decoration:  none;
+}
+.active{
+    cursor: pointer;
+    background-color: #a2aab8;
+}
+.search { position: relative; }
+.search input { text-indent: 30px;}
+.search .glyphicon-search { 
+  position: absolute;
+  top: 6px;
+  padding-left: 5px;
+  font-size: 15px;
+}
+
+/* Loader  */
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  #showPDFs {
+      border-top : 1px black solid;
+      
+  }
+  #showPDFs li{
+      padding: 5px;
+  }
+  #showPDFs li a{
+      padding:5px;
+      text-decoration: none;
+  }
+  .pdfSelect{
+      
+      background-color: #c8e1f7;
+  }
